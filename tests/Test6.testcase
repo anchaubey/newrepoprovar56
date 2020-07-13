@@ -2,13 +2,13 @@
 <testCase>
   <summary/>
   <steps>
-    <apiCall apiId="com.provar.plugins.bundled.apis.AssertValues" name="AssertValues" testItemId="1" title="Assert: 10 EqualTo 10">
+    <apiCall apiId="com.provar.plugins.bundled.apis.AssertValues" name="AssertValues" testItemId="1" title="Assert: 10 EqualTo 23">
       <arguments>
         <argument id="expectedValue">
           <value class="value" valueClass="string">10</value>
         </argument>
         <argument id="actualValue">
-          <value class="value" valueClass="string">10</value>
+          <value class="value" valueClass="string">23</value>
         </argument>
         <argument id="comparisonType">
           <value class="value" valueClass="string">EqualTo</value>
